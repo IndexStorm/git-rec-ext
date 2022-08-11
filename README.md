@@ -5,6 +5,8 @@ data-canonical-src="https://user-images.githubusercontent.com/23217571/183360309
 
 This is an official repo for <a href="https://chrome.google.com/webstore/detail/github-recommender/hbiichfklkmlebacdfhkojcpmmakmamk">GitHub Recommender extension</a>
 
+Link to extension: <a href="https://chrome.google.com/webstore/detail/github-recommender/hbiichfklkmlebacdfhkojcpmmakmamk">Chrome</a> and <a href="https://addons.mozilla.org/en-US/firefox/addon/github-recommender/">Firefox</a>
+
 <h2>Main repository with API code</h2>
 
 <a href="https://github.com/IndexStorm/git-rec-back">indexStorm/git-rec-back</a>
