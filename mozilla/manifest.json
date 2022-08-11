@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "GitHub Recommender",
+  "version": "1.2.0",
+  "description": "Get similar repositories on GitHub page",
+  "author": "https://indexstorm.com",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "1024": "logo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://github.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": [
+    "https://git.indexstorm.com/similar",
+    "tabs"
+  ]
+}
