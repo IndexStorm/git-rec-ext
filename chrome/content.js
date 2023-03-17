@@ -69,7 +69,7 @@ function addSimilarRepo(repos) {
     if (borderGrid.children.length <= 1) {
         borderGrid.appendChild(fragment.firstChild)
     } else {
-        borderGrid.insertBefore(fragment.firstChild, borderGrid.children[1])
+        borderGrid.insertBefore(fragment.firstChild, borderGrid.children[2])
     }
 }
 
